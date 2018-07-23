@@ -34,6 +34,8 @@ protected:
 	UTankMovementComponent* TankMovementComponent = nullptr;
 
 private:
+	void BeginPlay();
+
 	UPROPERTY(EditDefaultsOnly, Category = "firing")
 	float LaunchSpeed = 4000;
 
